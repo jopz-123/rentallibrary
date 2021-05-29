@@ -26,7 +26,7 @@ Route::get('/', function () {
 Route::get('/Login', function () {
     return view('login');
 });
-Route::get('/login', function () {
+Route::get('/adlogin', function () {
     return view('adminlogin');
 });
 
