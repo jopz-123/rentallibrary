@@ -37,7 +37,7 @@ Route::get('/Userhome', function () {
 
 Route::get('/Userhome',[LoginController::class,'ViewName']);
 
-Route::post('/Login',[userController::class , 'store' ] );
+Route::post('/Loginread',[userController::class , 'store' ] );
 
 Route::post('/login',[LoginController::class , 'AdminLog' ] );
 Route::post('/',[LoginController::class , 'CustomerLog' ] );
