@@ -106,7 +106,7 @@
 
 
 
-       <form action="/Loginread" method="post">
+       <form action="" method="post">
         {{ csrf_field() }}
       
         

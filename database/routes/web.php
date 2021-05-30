@@ -34,6 +34,7 @@ Route::get('/Userhome', function () {
     return view('Userhome');
 });
 
+
 Route::get('/Userhome',[LoginController::class,'ViewName']);
 
 Route::post('/Login',[userController::class , 'store' ] );
