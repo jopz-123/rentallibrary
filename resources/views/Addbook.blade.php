@@ -135,13 +135,13 @@ window.onunload = function () { null };
 
         <tr>
             <td> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);">Publishing House</ul> </td>
-            <td><input name="phouse" value="<?php if(isset($phouse))echo $phouse;?>" required type="text" class="form-control" placeholder="Author name" ></td>
+            <td><input name="phouse" value="<?php if(isset($phouse))echo $phouse;?>" required type="text" class="form-control" placeholder="Publishing House" ></td>
             
         </tr>
 
         <tr>
             <td> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);">Publishing Year</ul> </td>
-            <td><input name="pyear" value="<?php if(isset($pyear))echo $pyear;?>" required type="text" class="form-control" placeholder="Author name" ></td>
+            <td><input name="pyear" value="<?php if(isset($pyear))echo $pyear;?>" required type="text" class="form-control" placeholder="Publishing Year" ></td>
           
         </tr>
         

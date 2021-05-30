@@ -27,7 +27,7 @@ class CreateAddBooksTable extends Migration
 
             $table->string('bprice');
 
-            $table->integer('cat_id');
+            $table->integer('cat_id');    
             $table->longtext('bimage');
            
             $table->timestamps();
