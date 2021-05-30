@@ -24,9 +24,9 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/Login', function () {
-    return view('login');
+    return view('Login');
 });
-Route::get('/adlogin', function () {
+Route::get('/login', function () {
     return view('adminlogin');
 });
 
@@ -37,7 +37,7 @@ Route::get('/Userhome', function () {
 
 Route::get('/Userhome',[LoginController::class,'ViewName']);
 
-Route::post('/Loginread',[userController::class , 'store' ] );
+Route::post('/Login',[userController::class , 'store' ] );
 
 Route::post('/login',[LoginController::class , 'AdminLog' ] );
 Route::post('/',[LoginController::class , 'CustomerLog' ] );

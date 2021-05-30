@@ -89,13 +89,8 @@ class AddBookController extends Controller
     public function DeleteBook($did)
     {
         $delt=Add_books::DelData($did);
-        //return redirect('Addbook');
-        ?>
-        <script type="text/javascript">
-                    alert("Book Deleted Successfully..");
-                    setTimeout(function(){window.location.href='Addbook'},100);
-                </script>
-<?php
+        return redirect('Addbook');
+       
 
     }
 

@@ -5,13 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LIBRARY RENTAL APP</title>
-  <script type="text/javascript">
-
-function preventBack() { window.history.forward(); }
-setTimeout("preventBack()", 0);
-window.onunload = function () { null };
-
-</script>
 <style>
   #ip2 {
        border-radius: 25px;
@@ -24,7 +17,7 @@ window.onunload = function () { null };
 
 <style>
 
-<center>
+
   #ip3 {
        border-radius: 10px;
         border: 0px solid rgb(19, 154, 216);
@@ -32,7 +25,7 @@ window.onunload = function () { null };
         width: 100px;
         height: 10px;    
     }
-    </center>
+   
 
     </style>
 
@@ -242,18 +235,18 @@ window.onunload = function () { null };
        
         <table class="table table-borderless ">
           <br>
-        <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);">
+        <ul class="list-unstyled" style="font-size:20px;color: rgb(247, 252, 247);">
           <center>Admin Login </center>
           </ul>
           
            
           <tr>
               <td> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);">User Name</ul> </td>
-              <td><input name="usname" type="text" class="form-control" placeholder="user name" id="ip2"></td>
+              <td><input name="usname" required type="text" class="form-control" placeholder="user name" id="ip2"></td>
           </tr>
           <tr>
               <td> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);">Password</ul></td>
-              <td><input name="upass" type="password" class="form-control" placeholder="password" id="ip2"></td>
+              <td><input name="upass" required type="password" class="form-control" placeholder="password" id="ip2"></td>
           </tr>
 
          
@@ -261,7 +254,7 @@ window.onunload = function () { null };
 
              <tr>
               <td></td>
-              <td> <a href="adminhome" class="btn btn-primary"> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);><button class="btn btn-secondary" type="submit" name="btnlog" id="ip3">Login</ul></a></button></td>
+              <td> <a href="adminhome" class="btn btn-primary"> <ul class="list-unstyled" style="font-size: 20px;color: rgb(247, 252, 247);"><button class="btn btn-primary" type="submit" name="btnlog" id="ip3">Login</button></ul></a></td>
           </tr>
           
         
